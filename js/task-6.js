@@ -1,13 +1,10 @@
 const inputRef = document.querySelector('#validation-input');
 console.log(inputRef);
 
-inputRef.addEventListener('blur', event =>{
+inputRef.addEventListener('blur', validation)
+
+function validation (event){
     inputRef.textContent = event.target.value;
-
-console.log(event);
-
-   
-
 
     if(inputRef.textContent.length == inputRef.dataset.length){
         
@@ -17,6 +14,4 @@ console.log(event);
         inputRef.classList.remove('valid');
         inputRef.classList.add('invalid')
     }
-    
-})
-
+}

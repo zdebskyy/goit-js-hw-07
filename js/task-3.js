@@ -27,3 +27,17 @@ return acc;
 
  imgList.insertAdjacentHTML('afterbegin', pictures)
 
+ //================================================================
+
+//  const imgList = document.querySelector("#gallery");
+
+// const createMarkup = (items) => {
+// return items.reduce(
+// (acc, el) =>
+// (acc += `<li><img class ="mod" src ="${el.url}" alt ="${el.alt}"></li>`),
+// ""
+// );
+// };
+
+// imgList.insertAdjacentHTML("afterbegin", createMarkup(images));
+

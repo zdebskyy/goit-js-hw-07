@@ -11,3 +11,10 @@ function inputRandomText (event) {
     }
     
 }
+
+
+// if (spanRef.textContent === "") {
+//     spanRef.textContent = "незнакомец";
+//     } else {
+//     spanRef.textContent = event.target.value;
+//     }
